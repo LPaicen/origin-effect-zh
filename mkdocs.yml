@@ -40,10 +40,10 @@ theme:
 extra:
   alternate:
     - name: 简体中文
-      link: zh.origineffect.net
+      link: https://zh.origineffect.net
       lang: zh
     - name: English
-      link: origineffect.net
+      link: https://origineffect.net
       lang: en
 
 # Navigation
