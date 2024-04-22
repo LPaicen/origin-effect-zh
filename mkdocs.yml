@@ -49,4 +49,4 @@ extra:
 # Navigation
 nav:
   - 首页: index.md
-  - 立方内核: cubecore/index.md
+  - 立方内核: cube-core/index.md
