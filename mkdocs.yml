@@ -13,17 +13,16 @@ theme:
       primary: indigo
       accent: indigo
       toggle:
-        icon: material/lightbulb-on-outline
+        icon:  octicons/sun-16
         name: 切换至深色模式
     - media: '(prefers-color-scheme: dark)'
       scheme: slate
       primary: black
       accent: indigo
       toggle:
-        icon: material/lightbulb-outline
+        icon: octicons/moon-16
         name: 切换至浅色模式
   features:
-    - navigation.instant
     - navigation.instant.prefetch
     - navigation.instant.progress
     - navigation.tabs
@@ -31,6 +30,10 @@ theme:
     - navigation.expand
     - navigation.path
     - navigation.indexes
+
+# Hooks
+hooks:
+  - overrides/hooks/i18n-stayonpage.py
 
 # Additional
 extra:
